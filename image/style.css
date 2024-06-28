@@ -1,0 +1,38 @@
+.Hello {
+
+    
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    transition: 1s;
+    
+    animation-delay: 0s;
+    animation: myscale;
+    animation-play-state:running;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+
+.Hello:hover{
+
+    transform: scale(1.3);
+
+}
+/*@keyframes GG{
+   from{margin-left:0%;}
+   to{margin-left:100%;}
+}
+
+
+@keyframes myscale{
+
+50%{transform: scale(0.2,0.2);}
+}
